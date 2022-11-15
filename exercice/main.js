@@ -20,7 +20,7 @@ const changeColor1 = document.querySelector('.firtTouch')
 const changeUp = document.querySelector('.secondTouch')
 const changeBackColor = document.querySelector('.thirtTouch')
 const remove = document.querySelector('.fortyTouch')
-const changeColor5 = document.querySelector('.fiveTouch')
+const changeText = document.querySelector('.fiveTouch')
 
 
 
@@ -45,5 +45,11 @@ changeBackColor.onclick = () => {
 remove.onclick = () => {
     title4.remove();
 }
+
+changeText.onclick = () => {
+    title5.style.fontFamily = 'fantasy'
+}
+
+
 
 console.log(list2);
